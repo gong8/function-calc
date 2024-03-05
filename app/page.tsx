@@ -189,7 +189,7 @@ export default function Home() {
 
   return (
     <ChakraProvider>
-      <HStack height={"100%"} alignItems={"flex-start"}>
+      <HStack height={"100%"} alignItems={"flex-start"} padding={"1em"}>
         <VStack margin={"2em"} alignItems={"flex-start"} maxWidth={"45%"} width = {"45%"} minWidth={"45%"} height={"100%"} maxHeight={"920px"} overflow={"scroll"}>
           <Heading>
             Function Calculator
